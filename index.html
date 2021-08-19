@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>nishantbothra/login/join-the-community</title>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body id="main_sec">
+        <div id="log_in">
+            <div id="log_in_left">
+                <img src="login.png">
+            </div>
+            <div id="log_in_right">
+                <input id="email_login" type="email" placeholder="Enter your email">
+                <br> <br>
+                <div id="password_login">
+                        <input id="password_inp" type="password" placeholder="Enter your password">
+                        <button id="show_or_no" onclick="show()"><i id="show_r" class="far fa-eye"></i></button>
+                        <button id="show_or" onclick="hide()"><i id="show_x" class="far fa-eye-slash"></i></button>
+                </div>
+                <br> <br>
+                <button onclick="submit_form()">Submit</button>
+                <p id="account_needed">don't have an account <button id="signup_btn" onclick="signup_page()">Sign-up?</button></p>
+            </div>
+        </div>
+        <br> <br>
+        <div id="sign_in">
+            <div id="sign_in_left">
+                <img src="signin.png">
+            </div>
+            <div id="sign_in_right">
+                <input id="username_info" type="email" placeholder="Enter your Username">
+                <br> <br>
+                <input id="email_info" type="email" placeholder="Enter your email">
+                <br> <br>
+                <div id="password_signin">
+                    <input id="create_passord" type="password" placeholder="Enter your password">
+                    <button id="show_or_no" onclick="show()"><i id="show_r" class="far fa-eye"></i></button>
+                    <button id="show_or" onclick="hide()"><i id="show_x" class="far fa-eye-slash"></i></button>
+                </div>
+                <br> <br>
+                <button id="signup_submit" onclick="submit_form()">Submit</button>
+                <p id="account_have">Have an account?<button id="login_btn" onclick="login_page()">Log-in.</button></p>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
